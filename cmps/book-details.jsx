@@ -1,3 +1,5 @@
+
+
 import { LongTxt } from '../cmps/long-txt.jsx'
 
 export function BookDetails({ book, onGoBack }) {
