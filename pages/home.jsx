@@ -1,10 +1,6 @@
-import { UserPreview } from '../cmps/user-preview.jsx'
-
-export function Home() {
-    return (
-        <section>
-            <h2>Home Sweet Home</h2>
-            <UserPreview />
-        </section>
-    )
+export function HomePage() {
+    return <section className="home">
+        <h1>Hello from Books App!</h1>
+        <img src="assets/img/react.png" />
+    </section>
 }
