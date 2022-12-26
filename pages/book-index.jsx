@@ -37,9 +37,10 @@ export function BookIndex() {
     }
 
     function onSelectBook(bookId) {
-        bookService.get(bookId).then(book => {
-            setSelectedBook(book)
-        })
+        bookService.get(bookId)
+            .then(book => {
+                setSelectedBook(book)
+            })
     }
 
     function flashMsg(msg) {
@@ -53,7 +54,6 @@ export function BookIndex() {
     return <section className="book-index">
         {userMsg && <UserMsg msg={userMsg} />}
         {!selectedBook && <div>
-            <h1>Hello From Book Index!</h1>
             <BookFilter onSetFilter={onSetFilter} />
             <BookEdit />
             <BookList books={books} onRemoveBook={onRemoveBook} onSelectBook={onSelectBook} />

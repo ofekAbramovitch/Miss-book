@@ -1,10 +1,11 @@
 :root {
-  --clr1: rgb(46, 52, 43);
-  --clr2: rgb(120, 99, 110);
+  --clr1: rgb(44, 43, 43);
+  --clr2: rgb(118, 120, 99);
+  --clr3: goldenrod;
 
-  --clr1bg: rgb(39, 48, 37);
+  --clr1bg: rgb(31, 33, 33);
   --clr1bg-light: rgb(205, 221, 200);
-  --clr2bg: rgb(233, 206, 221);
+  --clr2bg: rgb(217, 170, 15);
   --clr2bg-light: rgb(247, 185, 219);
 
   --gray1: rgb(240, 240, 240);

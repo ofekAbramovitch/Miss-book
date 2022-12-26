@@ -8,9 +8,18 @@
 
 .book-preview h4{
     text-transform: capitalize;
-    color: black;
+    color: var(--clr3);
+}
+
+.book-preview h3 {
+    color: var(--clr3);
+}
+
+.book-preview h2{
+    color: var(--clr3);
 }
 
 .book-preview img {
-    max-width: 100px;
+    width: 70%;
+    height: 70%;
 }
